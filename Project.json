@@ -1,0 +1,13 @@
+{
+  "projectA": {
+    "logical_key_id": "projA-sign",
+    "format": "jar",
+    "max_artifact_size_mb": 500
+  },
+
+  "projectB": {
+    "logical_key_id": "projB-signenc",
+    "format": "msi",
+    "max_artifact_size_mb": 500
+  }
+}

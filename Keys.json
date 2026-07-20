@@ -1,0 +1,15 @@
+{
+  "projA-sign": {
+    "partition_label": "LUNA_PARTITION_01",
+    "key_label": "PROJECT_A_CODE_SIGN",
+    "algorithm": "RSA_3072_SHA256",
+    "usage": ["sign"]
+  },
+
+  "projB-signenc": {
+    "partition_label": "LUNA_PARTITION_02",
+    "key_label": "PROJECT_B_SIGN_ENC",
+    "algorithm": "RSA_3072_SHA256",
+    "usage": ["sign", "encrypt"]
+  }
+}
